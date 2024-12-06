@@ -1,0 +1,65 @@
+<!-- user login -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="page1.js"></script>
+</head>
+<body>
+    <div class="video-background">
+        <video  id="background-video" autoplay loop muted>
+            <source src=".\mbg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <header>
+        <div class="logo">
+            <img src="mlogo.png" alt="Logo">
+        </div>
+        <div class="signup">
+            <a href="signup.html">Sign Up</a>
+        </div>
+       
+    </header>
+ 
+          <div class="login-container">
+            <form id="loginForm">
+                <h2>Welcome to Your Era</h2>
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="actions">
+                <button type="submit">SIGN IN</button>
+                
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="rememberMe">
+                <label for="rememberMe">Remember Me</label>
+            </div>
+            <div class="forgot-password">
+                <a href="#">oops! Forgot Password?</a>
+            </div>
+            <div class="new">
+           
+                <label for="new">Wanna be new member?</label>
+            </div>
+            <div class="actions">
+                <button type="signup" id="signup">SIGN UP</button>
+                
+            </div>
+            
+        </form>
+        <div id="alertMessage"></div>
+    </div>
+</div>
+</body>
+</html>
